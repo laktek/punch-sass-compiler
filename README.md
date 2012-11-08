@@ -18,6 +18,6 @@ Use [Sass](http://sass-lang.com/) for CSS generation in your Punch projects.
 
 		}
 
-* Now you can use Stylus stylesheets in your project. 
+* Now you can use Sass stylesheets in your project. 
 
 	Make sure you **save the stylesheets with `.sass` or `.scss` extensions**.
