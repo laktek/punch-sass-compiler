@@ -1,0 +1,32 @@
+{
+  "name": "punch-sass-compiler",
+  "description": "Use Sass in your Punch projects",
+  "keywords": [
+    "punch",
+    "sass",
+    "pre-processor"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/laktek/punch-sass-compiler",
+  "author": "Lakshan Perera <lakshan@web2media.net> (http://laktek.com)",
+  "licenses": "MIT",
+  "bugs": {
+    "url": "http://github.com/laktek/punch-sass-compiler/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laktek/punch-sass-compiler.git"
+  },
+  "main": "./lib/sass.js",
+  "dependencies": {
+    "punch": ">= 0.4.0",
+	  "node-sass": ">= 0.2.5"
+  },
+  "devDependencies": {
+    "jasmine-node": ">= 1.0.26",
+    "jshint": ">= 0.9.1"
+  },
+  "scripts": {
+    "test": "jasmine-node spec"
+  }
+}
