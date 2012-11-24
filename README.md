@@ -2,7 +2,7 @@
 
 Use [Sass](http://sass-lang.com/) for CSS generation in your Punch projects. 
 
-### How to Use 
+## How to Use 
 
 * Install the package
 	
@@ -21,3 +21,8 @@ Use [Sass](http://sass-lang.com/) for CSS generation in your Punch projects.
 * Now you can use Sass stylesheets in your project. 
 
 	Make sure you **save the stylesheets with `.sass` or `.scss` extensions**.
+
+## License
+
+Copyright (c) 2012 Lakshan Perera  
+Licensed under the MIT license.
