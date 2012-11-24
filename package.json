@@ -6,7 +6,7 @@
     "sass",
     "pre-processor"
   ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/laktek/punch-sass-compiler",
   "author": "Lakshan Perera <lakshan@web2media.net> (http://laktek.com)",
   "licenses": "MIT",
