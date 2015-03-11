@@ -20,7 +20,7 @@
   "main": "./lib/sass.js",
   "dependencies": {
     "punch": ">= 0.4.0",
-    "node-sass": ">= 3.0.0"
+    "node-sass": ">= 3.0.0-pre"
   },
   "devDependencies": {
     "jasmine-node": ">= 1.0.26",
