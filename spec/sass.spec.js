@@ -9,13 +9,14 @@ describe("calling compile", function() {
 		var spyCallback = jasmine.createSpy();
 		sass_compiler.compile("test", "sample/css/main.scss", spyCallback);
 
-		expect(sass.render).toHaveBeenCalledWith("test", jasmine.any(Function), { "include_paths": [ "sample/css" ] });
+		expect(sass.render).toHaveBeenCalledWith({"data": "test", "file": "sample/css/main.scss", "includePaths": [ "sample/css" ] }, jasmine.any(Function) );
 	});
 
 	it("calls the callback with the result", function(){
-		spyOn(sass, "render").andCallFake(function(input, callback, options){
-			return callback(null, "rendered file");
+		spyOn(sass, "render").andCallFake(function(options, callback){
+			return callback(null, { css: { toString: function() {return "rendered file"} }});
 		});
+
 
 		var spyCallback = jasmine.createSpy();
 		sass_compiler.compile("test", "sample.scss", spyCallback);
